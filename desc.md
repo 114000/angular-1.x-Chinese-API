@@ -1,13 +1,3 @@
----
-layout: post
-title: Angular_1.4.3 API 介绍
-desc: '关于Angular的一些简介，译自angularjs.org'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 #Angular_1.4.3 API 介绍
 
 欢迎来到 AngularJS API 文档网页。这些网页包含了 AngularJS 1.4.3 版本的一些参考资料。
@@ -24,11 +14,7 @@ Angular 前缀 $ 和 $$:
 
 ```
 
----
-
 # Angular 模块
-
----
 
 ## ng (核心模块)
 
@@ -42,8 +28,6 @@ Angular 前缀 $ 和 $$:
 | 全局 APIs |核心的全局API函数被绑定到 `angular` 对象上。这些核心的函数使有助于你在你的应用中使用底层的 Javascript 操作。<br>其中包含了: `angular.copy()`, `angular.equals()`, `angular.element()`, 等等...|
 
 
----
-
 ## ngRoute
 
 > ngRoute 可以使你可以在你的应用实现 URL 路由 ngRoute 模块可以通过hashbang 和 HTML5 pushState 两种方式支持 URL 管理。
@@ -56,8 +40,6 @@ Angular 前缀 $ 和 $$:
 |---|:---|
 |Services / Factories| 下面的服务是用来管理路由的:<br>- $routeParams 用来访问 URL 当前的查询字符串值<br>- $route 用来获取当前被访问路由的详细信息。<br>- $routeProvider 用来为应用注册路由|
 |Directives|`ngView` 指令将会在页面中展示当前路由的模板。|
-
----
 
 ## ngAnimate
 
@@ -85,8 +67,6 @@ Angular 前缀 $ 和 $$:
 |---|:---|
 |Services| `$aria` 服务包含了辅助方法来申请 ARIA 属性值为 `HTML.$ariaProvider`用于配置ARIA的属性。|
 
----
-
 ## ngResource
 
 > 当你需要使用一个 REST API 来获取和发送数据时，你可以使用 `ngResource`
@@ -97,8 +77,6 @@ Angular 前缀 $ 和 $$:
 |---|:---|
 |Services / Factories| `$resource` 服务用来定义 使用 REST API 通信的 RESTful 对象|
 
----
-
 ## ngCookies
 
 > 在你的应用中你可以使用 `ngCookies` 模块处理 cookie 的管理。
@@ -108,8 +86,6 @@ Angular 前缀 $ 和 $$:
 |||
 |---|:---|
 |Services / Factories|	下面的服务可用于cookie 的管理:<br> - `$cookie` 服务是一个浏览器 cookie 的便捷的封装，可以用来存储一些简单的数据<br> - `$cookieStore` 用于序列化存储更为复杂的数据。|
-
----
 
 ## ngTouch
 
@@ -123,8 +99,6 @@ Angular 前缀 $ 和 $$:
 |Directives|	`ngTouch` 中有很多指令可以模拟移动端的 DOM 事件。|
 
 
----
-
 ## ngSanitize
 
 > 在你的应用中，`ngSanitize`可以帮你安全的解析和操纵 HTML 数据
@@ -136,8 +110,6 @@ Angular 前缀 $ 和 $$:
 |Services / Factories| `$sanitize` 服务是一个用来清理危险的HTML代码的快速且便利的途径。|
 |Filters | `linky` 过滤器用于，在提供的字符串内将 URL 转化成 HTML 链接|
 
-
----
 
 ## ngMock
 
