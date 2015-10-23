@@ -1,13 +1,3 @@
----
-layout: post
-title:  "Angular_1.4.3 API 服务篇 $q"
-desc: "$q的灵感源自Kris Kowal的`Q`，它实现是一个`promises`/`deferred`对象。这是一个能帮助你异步地运行函数，并且在他们仍在进程中的时候使用他们的返回值（或者捕捉异常）的服务"
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # Angular_1.4.3 API 服务篇 $q
 
 - ng模块下的服务 [`$q`官方文档](https://code.angularjs.org/1.4.3/docs/api/ng/service/$q)

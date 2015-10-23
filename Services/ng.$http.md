@@ -1,14 +1,3 @@
----
-layout: post
-title:  "Angular_1.4.3 API 服务篇 $http"
-desc: "`$http` 服务是一个Angular内的有助于通过浏览器的 `XMLHttpRequest` 对象或 `JSONP` 的方式连接远程
-HTTP 服务器核心服务。"
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # $http
 
 - $httpProvider

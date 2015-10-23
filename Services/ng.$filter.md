@@ -1,14 +1,4 @@
----
-layout: post
-title:  "Angular_1.4.3 API 服务篇 $filter"
-desc: "`$filter` 用来格式化数据展示给用户。"
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
-# $filter
+# Angular_1.4.3 API 服务篇 $filter
 
 - $filterProvider
 - ng 模块中的服务

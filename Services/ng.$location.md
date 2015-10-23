@@ -1,17 +1,4 @@
----
-layout: post
-title: Angular_1.4.3 API 服务篇 $location
-desc: '`$location` 服务格式化了浏览器地址栏中的 URL (基于 `window.location` 对象)，
-并让它在你的应用中可以使用。改变地址栏中的 URL 将反馈到 `$location` 服务中而且改变 `$location`
-也同样会反馈到浏览器地址栏中。'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
-
-# $location
+# Angular_1.4.3 API 服务篇 $location
 
 - $locationProvider
 - ng 模块中的服务

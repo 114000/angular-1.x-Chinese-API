@@ -1,13 +1,3 @@
----
-layout: post
-title: Angular_1.4.3 API 服务篇 $sceDelegate
-desc: '`$sceDelegate` 是一个基于 `$sce` 为 AngularJS 提供SCE 的服务。'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # Angular_1.4.3 API 服务篇 $sceDelegate
 
 - $sceDelegateProvider

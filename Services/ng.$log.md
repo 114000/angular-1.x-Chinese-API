@@ -1,13 +1,3 @@
----
-layout: post
-title: "Angular_1.4.3 API 服务篇 $log"
-desc: "简单的打印日志的服务。默认实现安全的写入信息到浏览器的控制台（如果存在的话）。"
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # Angular_1.4.3 API 服务篇 $log
 
 - `$logProvider`

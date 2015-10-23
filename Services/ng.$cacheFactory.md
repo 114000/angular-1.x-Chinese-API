@@ -1,13 +1,3 @@
----
-layout: post
-title: 'Angular_1.4.3 API 服务篇 $cacheFactory'
-desc: '以工厂模式构造cache对象，并且使它们可以被访问。'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # Angular_1.4.3 API 服务篇 $cacheFactory
 
 - [ng](https://code.angularjs.org/1.4.3/docs/api/ng)模块中的服务

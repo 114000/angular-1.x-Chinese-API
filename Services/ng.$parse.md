@@ -1,13 +1,3 @@
----
-layout: post
-title: Angular_1.4.3 API 服务篇 $parse
-desc: '将 Angular 表达式转化为函数。'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # Angular_1.4.3 API 服务篇 $parse
 
 - `$parseProvider`

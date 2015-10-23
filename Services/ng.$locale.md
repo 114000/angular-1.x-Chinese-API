@@ -1,14 +1,4 @@
----
-layout: post
-title:  "Angular_1.4.3 API 服务篇 $locale"
-desc: "`$locale` 服务为许多 Angular 组件提供了本地化规则"
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
-# $locale
+# Angular_1.4.3 API 服务篇 $locale
 
 - `ng` 模块的服务
 

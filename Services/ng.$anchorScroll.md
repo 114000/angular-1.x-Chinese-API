@@ -1,13 +1,3 @@
----
-layout: post
-title:  "Angular_1.4.3 API 服务篇 $anchorScroll"
-desc: "当被调用的时候，页面会滚动到与元素相关联的指定的 `hash` 处，或者滚动到当前 `$location.hash()` 处，它当然也会监听 `$location.hash()` 并且无论锚点值何时变化，都会自动地滚动到相应的位置。"
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
 # Angular_1.4.3 API 服务篇 $anchorScroll
 - [`$anchorScrollProvider`](https://code.angularjs.org/1.4.3/docs/api/ng/provider/$anchorScrollProvider)
 - [ng](https://code.angularjs.org/1.4.3/docs/api/ng) 模块中的服务
@@ -185,7 +175,3 @@ body {
 
 }
 ```
-
-
-
-本文由作者原创，翻译内容仍有欠佳之处，请大家多多指正。via  [_西瓜橘子葡萄冰](http://weibo.com/1975910825/profile?rightmod=1&wvr=6&mod=personinfo)

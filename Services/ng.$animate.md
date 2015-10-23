@@ -1,15 +1,4 @@
----
-layout: post
-title: Angular_1.4.3 API 服务篇 $animate
-desc: '`$animate` 服务暴露了一系列支持动画钩子的 DOM 实用方法。默认行为是DOM操作的应用程序，
-然而，一个动画被检测到（并且动画是可用的），`$animate` 会做出大量的操作来确保那些触发DOM操作的动画。'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
-# $animate
+# Angular_1.4.3 API 服务篇 $animate
 - $animateProvider
 - `ng` 模块中的服务
 

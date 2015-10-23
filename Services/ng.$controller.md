@@ -1,14 +1,4 @@
----
-layout: post
-title: Angular_1.4.3 API 服务篇 $controller
-desc: '`$controller` 服务负责实例化控制器。它仅仅是对 `$injector` 的简单调用，之所以提取成服务，是为了方便BC版本可以覆盖这个服务。'
-categories: jekyll update
-tags:
-- API
-- AngularJS
----
-
-# $controller
+# Angular_1.4.3 API 服务篇 $controller
 
 - $controllerProvider
 - ng 模块中的服务
