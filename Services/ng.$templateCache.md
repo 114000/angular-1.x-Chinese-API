@@ -48,5 +48,3 @@ $templateCache.get('templateId.html')
 ```
 
 请看 [`$cacheFactory`](https://docs.angularjs.org/api/ng/service/$cacheFactory).
-
----

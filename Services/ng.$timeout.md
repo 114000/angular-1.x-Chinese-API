@@ -1,5 +1,4 @@
 # Angular_1.4.3 API 服务篇 $timeout
----
 - `ng`模块中的服务
 
 `window.setTimeout` 的Angular封装，这个 `fn` 函数被封装成了一个 `try`/`catch` 块并且授 [`$exceptionHandler`](https://docs.angularjs.org/api/ng/service/$exceptionHandler) 服务以任何例外。
@@ -11,7 +10,6 @@
 来同步刷新 `deferred`函数的队列。而如果你仅仅想要得到一个在一个指定延时时间之后会被解析的 `promise`，
 你可以仅仅调用 `$timeout` 而不传入 `fn` 函数。
 
----
 ## 用法
 
 `$timeout([fn], [delay], [invokeApply], [Pass]);`
@@ -29,7 +27,6 @@
 ##### *返回*
 `Promise` - `promise` 将会在超时达成后被解析，它的值会被 `fn` 的返回值解析。
 
-----
 ## 方法
 
 `cancel([promise]);` - 取消一个与 `promise` 相关联的任务。这个结果会导致，`promise`会被拒绝解析。
@@ -45,6 +42,3 @@
 ##### *返回*
 
 `boolean` - 如果任务没有被执行就被成功取消了，则会返回 `true`。
-
-
----

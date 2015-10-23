@@ -9,12 +9,10 @@
 
 另外我们可以使用它的 [`yOffset`](https://code.angularjs.org/1.4.3/docs/api/ng/service/$anchorScroll#yOffset) 属性来指定一个垂直滚动偏移量（既可以是定值也可以是动态值）。
 
----
 ## 依赖
 
 `$window` `$location` `$rootScope`
 
----
 ## 用法
 
 `$anchorScroll([hash])`;
@@ -26,7 +24,6 @@
 |`hash` *(可选)*| `string`|`hash` 将会指定元素滚动到的位置，如果省略参数，则将使用[`$location.hash()`](https://code.angularjs.org/1.4.3/docs/api/ng/service/$location#hash) 作为默认值。
 
 
----
 ## 属性
 `yOffset`
 
@@ -35,8 +32,6 @@
 |`number`<br><br>`function()`<br><br>`jqLite`| 如果设置了这个值，将会指定一个垂直的滚动的偏移量。这种场景经常用于在页面顶部有固定定位的元素, 如导航条，头部等（让出头部空间）。<br><br> `yOffset` 可以用多种途径指定: <br><br> - **number** : 一个固定的像素值可以使用（无单位）。<br>- **function** : 每次`$anchorScroll()`执行时这个函数都会被调用，它必须返回一个代表位移的数字（无单位像素值）。<br>**jqLite** : 一个jqLite/jQuery元素可以被指定为位移值。这个位移值会取页面的顶部到该元素底部的距离。<br><br> **注意**: 只有有元素的定位方式是固定定位时才会应该被纳入考虑之中。这个设置 在响应式的导航条/头部需要调整他们的高度亦或 根据视图来定位时很有用处。
 
 > 为了使 `yOffset` 正确地工作，滚动必须是在文档的根节点，而不是子节点。
-
----
 
 ## 例子
 
@@ -88,7 +83,6 @@ angular.module('anchorScrollExample', [])
 
 }
 ```
----
 
 下面的例子将说明如何使用一个垂直滚动偏移（指定了一个固定值）关于 `$anchorScroll.yOffset` 的详情请看上方介绍
 

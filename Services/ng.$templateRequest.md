@@ -11,9 +11,6 @@
 需要注意的是，`$templateCache` 的内容是可以信任的，因此当 `tpl` 是以字符串形式出现的时候，
 或者通过 `$templateCache` 作为入口时，是可以不必去调用 `$sce.getTrustedUrl(tpl)` 来验证的。
 
-
-
----
 ## 用法
 
 `$templateRequest(tpl, [ignoreRequestError]);`
@@ -28,8 +25,6 @@
 ##### *返回*
 
 `promise`	- 一个表示通过给定的路径请求得到的 HTTP 相应数据的 `promise`
-
----
 
 ## 属性
 

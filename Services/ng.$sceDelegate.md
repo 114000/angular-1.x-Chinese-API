@@ -17,13 +17,11 @@
 来使用信任的 URL 加载模板这类 AngularJS 资源。详请参见
 `$sceDelegateProvider.resourceUrlWhitelist`和 `$sceDelegateProvider.resourceUrlBlacklist`
 
----
 
 ## 用法
 
 `$sceDelegate()`
 
----
 
 ## 方法
 

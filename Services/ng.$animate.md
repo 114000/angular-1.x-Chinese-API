@@ -15,7 +15,6 @@
 
 了解更多的动画支持的使用，点解这访问 [`ngAnimate` 模块页面](https://code.angularjs.org/1.4.3/docs/api/ngAnimate)
 
----
 
 ## 方法
 

@@ -47,7 +47,6 @@ SCE 会给编写代码带来两点好处: a.使用默认方式确保安全, b.�
 在 Angular `SCE` 服务的案例中，使用 `$sce.trustAs` (或者像 `$sce.trustAsHtml` 等的简洁方法)
 来获得符合 SCE 或者指定的上下文环境的值。
 
----
 
 ## 它使如何工作的?
 
@@ -71,7 +70,6 @@ var ngBindHtmlDirective = ['$sce', function($sce) {
 
 ```
 
----
 
 ## 对加载文档的影响
 
@@ -85,7 +83,6 @@ var ngBindHtmlDirective = ['$sce', function($sce) {
 策略的应用会进一步限制模板的加载的成功。这意味着，如果没有正确的CORS策略，从一个不同的域下加载模板，
 是不会兼容所有浏览器的。同样地，从 `file://` 路径下加载的文档也会有一些浏览器不支持。
 
----
 
 ## 这让人感觉得不偿失
 
@@ -112,7 +109,6 @@ SCE 此处不会发挥效用.
 这显著地降低了开销。相比于在应用启动一段时间之后指定安全策略它真是容易的多，花费很少的时间就拥有了
 一个安全的可审计验证的更为方便的应用。
 
----
 
 ## 支持那些收信人的上下文形式?
 
@@ -123,8 +119,6 @@ SCE 此处不会发挥效用.
 | `$sce.URL` |	对于作为链接安全的URL。当前未使用 (`<a href=` 和 `<img src=` 校正它们的路径并且不会构成一个SCE上下文环境。）|
 | `$sce.RESOURCE_URL` |	不仅仅是对于作为链接安全的URL。并且链接引入到你应用中的内容也是安全的，例如引入 `ng-include`或是 `src`/`ngSrc` 绑定的 IMG 外的其他标签 (e.g. IFRAME, OBJECT, etc.) <br>需要注意的是 `$sce.RESOURCE_URL` 相比 `$sce.URL` 做了更为强大的声明。因此 `$sce.RESOURCE_URL` 信任的上下文要求值可以用于任何地方，而 `$sce.URL` 的则不行。
 |`$sce.JS`|	可以在你的应用上下文中安全执行的 Javascript。当前未使用。可以在你的指令了随意使用它。|
-
----
 
 ## 格式化在资源路径白、黑名单中的项目
 
@@ -159,7 +153,6 @@ Javascript 内部则缺少一个类似的机制用于逃逸。看一看Google Cl
 
 参阅 `$sceDelegateProvider` 的例子。
 
----
 
 ## 为你展示一个使用SCE的例子
 
@@ -239,8 +232,6 @@ describe('SCE doc demo', function() {
 
 ```
 
----
-
 ## 我也以在应用开始生效时禁用 SCE 吗?
 
 当然可以。 然而，我们强烈建议你不要这么做。SCE 将给予你非常多的安全益处和很少的代码开销。掌控一个
@@ -259,13 +250,9 @@ angular.module('myAppWithSceDisabledmyApp', []).config(function($sceProvider) {
 });
 ```
 
----
-
 ## 用法
 
 `$sce`
-
----
 
 ## 方法
 

@@ -192,11 +192,9 @@ it('should simulate promise', inject(function($q, $rootScope) {
 }));
 ```
 
----
 ## 依赖
 `$rootScope`
 
----
 ## 用法
 
 `$q(resolver);`
@@ -300,7 +298,3 @@ promiseB = promiseA.then(function(result) {
 ##### *返回*
 
 `Promise` 返回一个单独的 `promise`，它将被一组数组/哈希 `value` 解析。在这个单独的 `promise` 中每一个 `value` 都会对应到 `promise` 数组/哈希的索引中. 如果参数中的任何一个 `promise` 被拒绝，这将使由 `all` 方法返回的 `promise` 被同样的理由（上面的拒绝）拒绝掉.
-
-
-
-本文由作者原创，翻译内容仍有欠佳之处，请大家多多指正。via  [_西瓜橘子葡萄冰](http://weibo.com/1975910825/profile?rightmod=1&wvr=6&mod=personinfo)

@@ -15,8 +15,6 @@ HTTP 服务器核心服务。
 虽然简单的用法格式与此没有多大关系，但是对于更为高级的用法它使非常重要的，它所提供的这些 API
 和保障会使你更为熟悉你自己写的代码。
 
----
-
 ## 一般用法
 
 `$http` 服务是一个函数，它需要单一的一个参数 - 一个配置对象 - 它被用来生成一个 HTTP 请求并返
@@ -58,8 +56,6 @@ $http.post('/someUrl', {msg:'hello word!'}).
 响应状态码在 200 - 299 之间会被认定为成功的状态，并在成功的回调函数被调用时将返回的结果传递给它。注意，
 如果响应是一个重定向，`XMLHttpRequest` 依旧会执行，意思是 error 回调不会被响应调用。
 
----
-
 ## 使用 `$http` 编写单元测试
 
 ``` javascript
@@ -69,8 +65,6 @@ $http.get(...);
 $httpBackend.flush();
 
 ```
-
----
 
 ## 简写方法
 
@@ -92,8 +86,6 @@ $http.post('/someUrl', data).success(successCallback);
   - `$http.delete`
   - `$http.jsonp`
   - `$http.patch`
-
----
 
 ## 设置 HTTP 头部信息
 
@@ -138,8 +130,6 @@ var req = {
 $http(req).success(function(){...}).error(function(){...});
 
 ```
-
----
 
 ## 改造请求和响应
 
@@ -200,8 +190,6 @@ $http({
 ```
 
 
----
-
 ## Caching
 
 
@@ -215,8 +203,6 @@ You can change the default cache to a new object (built with `$cacheFactory`) by
 
 If you set the default cache to false then only requests that specify their own custom cache object will be cached.
 
-
----
 
 ## Interceptors
 
@@ -292,8 +278,6 @@ $httpProvider.interceptors.push(function($q, dependency1, dependency2) {
 
 ```
 
----
-
 ## Security Considerations
 
 When designing web applications, consider security threats from:
@@ -334,8 +318,6 @@ The name of the headers can be specified using the xsrfHeaderName and xsrfCookie
 
 In order to prevent collisions in environments where multiple Angular apps share the same domain or subdomain, we recommend that each application uses unique cookie name.
 
----
-
 ## 依赖
 
 `$httpBackend`
@@ -343,8 +325,6 @@ In order to prevent collisions in environments where multiple Angular apps share
 `$rootScope`
 `$q`
 `$injector`
-
----
 
 ## 用法
 
@@ -388,8 +368,6 @@ Object describing the request to be made and how it should be processed. 该对�
   - **headers** – `{function([headerName])}` – Header getter function.
   - **config** – `{Object}` – The configuration object that was used to generate the request.
   - **statusText** – `{string}` – HTTP status text of the response.
-
----
 
 ## 方法
 
@@ -512,8 +490,6 @@ Object describing the request to be made and how it should be processed. 该对�
 `HttpPromise` - `promise`
 
 
----
-
 ## 属性
 
 ### 1.`pendingRequests`
@@ -526,8 +502,6 @@ Object describing the request to be made and how it should be processed. 该对�
 `$httpProvider.defaults` 属性的运行时当量. 允许默认头配置, withCredentials,以及请求和响应的变化。
 
 详细请看上面的 "设置 HTTP Headers", "Transforming Requests and Responses"。
-
----
 
 ## 例子
 

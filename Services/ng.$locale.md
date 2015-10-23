@@ -4,4 +4,4 @@
 
 `$locale` 服务为许多 Angular 组件提供了本地化规则，截止目前只提供一个公共的 API:
 
-id – {`string`} – 语言环境 id 格式化成 `语言Id-国家Id` 的形式(如 en-us)
+id – { `string` } – 语言环境 id 格式化成 `语言Id-国家Id` 的形式(如 en-us)

@@ -4,12 +4,9 @@
 
 一个对于浏览器中的 `window.document`对象的[jQuery 或 jqLite](https://code.angularjs.org/1.4.3/docs/api/ng/function/angular.element) 封装。
 
----
 ## 依赖
 
 `$window`
-
----
 
 ## 例子
 

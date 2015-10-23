@@ -19,7 +19,6 @@ expect(getter(context, locals)).toEqual('local');
 
 ```
 
----
 ## 用法
 
 `$parse(expression);`

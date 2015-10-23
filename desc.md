@@ -55,8 +55,6 @@ Angular 前缀 $ 和 $$:
 |以 JS 为基础的动画 |	调用 `module.animation()` 方法来注册一个 Javascript 动画，一次注册，动画就总是会被 HTML模板代码中引用的 CSS 类触发。|
 
 
----
-
 ## ngAria  *可能不是这样的囧*
 
 > 使用 `ngAria` 注入公共的可访问属性到指令中并提升残疾人用户的体验

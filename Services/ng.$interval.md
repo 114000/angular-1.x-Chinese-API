@@ -13,7 +13,6 @@ Angular对 `window.setInterval` 的封装。`fn` 函数将在每次延时的时�
 interval 也不会被自动销毁。你需要将此纳入考虑之中，确保在适合的时间退出 interval。详述之后的例子将会
 介绍何时与怎样去做这些处理。
 
----
 ## 用法
 
 `$interval(fn, delay, [count], [invokeApply], [Pass]);`
@@ -33,7 +32,6 @@ interval 也不会被自动销毁。你需要将此纳入考虑之中，确保�
 
 `promise` - 一个每次迭代都会被通知的 `promise`。
 
----
 ## 方法
 
 `cancel([promise]);` - 取消一个与 `promise` 相关的任务。
@@ -49,7 +47,6 @@ interval 也不会被自动销毁。你需要将此纳入考虑之中，确保�
 
 `boolean` - 如果任务被成功取消则返回 `true` 。
 
----
 
 ## 例子
 

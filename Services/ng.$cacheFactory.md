@@ -20,7 +20,6 @@ expect(cache.info()).toEqual({id: 'cacheId', size: 2});
 
 ```
 
----
 ## 用法
 
 `$cacheFactory(cacheId, [配置项]);`
@@ -39,7 +38,6 @@ expect(cache.info()).toEqual({id: 'cacheId', size: 2});
 |`object`|新创建的缓存对象有以下的配置方法: <br><br> - `{object}` `info()` — 返回 id, 大小, 和缓存的配置。<br><br>-`*`,`put({string} key, {*} value)` — 向缓存中插入以个新的键值对并将它返回。<br><br> - `*`,`get({string} key)` — 返回与`key`对应的`value`值，如果未命中则返回`undefined`。 <br><br> - `{void}` `remove({string} key)`  — 从缓存中删除一个键值对 <br><br> - `{void}` `removeAll()` — 删除所有缓存中的数据 <br><br> - `{void}` `destroy()` — 删除从`$cacheFactory`引用的这个缓存.
 
 
----
 ## 方法
 ### 1.`info();` 获取所有被创建的缓存的信息
 
@@ -59,8 +57,6 @@ expect(cache.info()).toEqual({id: 'cacheId', size: 2});
 
 Returns
 `Object` - 通过 `cacheId` 确认的缓存对象，或是确认失败的 `undefined`
-
----
 
 ## 例子
 
@@ -113,5 +109,3 @@ p {
   margin: 10px 0 3px;
 }
 ```
-
-本文由作者原创，翻译内容仍有欠佳之处，请大家多多指正。via  [_西瓜橘子葡萄冰](http://weibo.com/1975910825/profile?rightmod=1&wvr=6&mod=personinfo)
