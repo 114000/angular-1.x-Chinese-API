@@ -68,6 +68,7 @@
 * 指令篇
   * [ng.a](Directives/ng.a.md)  
   * [ng.form](Directives/ng.form.md)  
+  * [ng.ng-form](Directives/ng.ng-form.md)  
   * [ng.input](Directives/ng.input.md)  
   * [ng.ng-app](Directives/ng.ng-app.md)  
   * [ng.ng-bind-html](Directives/ng.ng-bind-html.md)  
@@ -87,7 +88,6 @@
   * [ng.ng-dblclick](Directives/ng.ng-dblclick.md)  
   * [ng.ng-disabled](Directives/ng.ng-disabled.md)  
   * [ng.ng-focus](Directives/ng.ng-focus.md)  
-  * [ng.ng-form](Directives/ng.ng-form.md)  
   * [ng.ng-hide](Directives/ng.ng-hide.md)  
   * [ng.ng-href](Directives/ng.ng-href.md)  
   * [ng.ng-if](Directives/ng.ng-if.md)  
