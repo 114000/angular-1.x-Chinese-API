@@ -139,7 +139,7 @@ angular.module('formExample', [])
 > protractor.js
 
 ```javascript
-it('should initialize to model', function() {
+it('模型应该被初始化：should initialize to model', function() {
   var userType = element(by.binding('userType'));
   var valid = element(by.binding('myForm.input.$valid'));
 
@@ -147,7 +147,7 @@ it('should initialize to model', function() {
   expect(valid.getText()).toContain('true');
 });
 
-it('should be invalid if empty', function() {
+it('如果为空，则无效：should be invalid if empty', function() {
   var userType = element(by.binding('userType'));
   var valid = element(by.binding('myForm.input.$valid'));
   var userInput = element(by.model('userType'));

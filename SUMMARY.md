@@ -77,6 +77,7 @@
   * [ng.ng-blur](Directives/ng.ng-blur.md)  
   * [ng.ng-change](Directives/ng.ng-change.md)  
   * [ng.ng-checked](Directives/ng.ng-checked.md)  
+  * [ng.ng-class](Directives/ng.ng-class.md)  
   * [ng.ng-class-even](Directives/ng.ng-class-even.md)  
   * [ng.ng-class-odd](Directives/ng.ng-class-odd.md)  
   * [ng.ng-click](Directives/ng.ng-click.md)  
