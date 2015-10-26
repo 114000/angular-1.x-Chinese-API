@@ -9,7 +9,7 @@ twitter: [@fsm114000](https://twitter.com/fsm114000)<br>
 mail: fsm114000@163.com
 
 注意:
-- 出现在标签或者函数参数中的 `[ ]` 代表可选，并不代表正正书写时需要书写它
+- 出现在标签或者函数参数中的 `[ ]` 代表可选，并不代表真正书写时需要书写它
 
 进度 ★☆
 ```
@@ -23,12 +23,12 @@ mail: fsm114000@163.com
     |- ★ ng.ng-bind-html@1.4.7
     |- ★ ng.ng-bind-template@1.4.7
     |- ★ ng.ng-blur@1.4.7
-    |- ☆ ng.ng-change@1.4.7
-    |- ☆ ng.ng-checked@1.4.7
-    |- ☆ ng.ng-class@1.4.7
+    |- ★ ng.ng-change@1.4.7
+    |- ★ ng.ng-checked@1.4.7
+    |- ★ ng.ng-class@1.4.7
     |- ★ ng.ng-class-even@1.4.7
     |- ★ ng.ng-class-odd@1.4.7
-    |- ☆ ng.ng-click@1.4.7
+    |- ★ ng.ng-click@1.4.7
     |- ☆ ng.ng-cloak@1.4.7
     |- ☆ ng.ng-controller@1.4.7
     |- ☆ ng.ng-copy@1.4.7
@@ -85,10 +85,65 @@ mail: fsm114000@163.com
     |- ☆ ngTouch.ng-swipe-right@1.4.7
     ...
 |- 过滤器/
+    |- ★ ng.currency@1.4.7
+    |- ★ ng.date@1.4.7
+    |- ★ ng.filter@1.4.7
+    |- ★ ng.json@1.4.7
+    |- ★ ng.limitTo@1.4.7
+    |- ★ ng.lowercase@1.4.7
+    |- ★ ng.number@1.4.7
+    |- ★ ng.orderBy@1.4.7
+    |- ★ ng.uppercase@1.4.7
+    |- ★ ngSanitize.linky@1.4.7
     ...
 |- 公共函数/
+    |- ☆ ng.angular.bind@1.4.7
+    |- ☆ ng.angular.bootstrap@1.4.7
+    |- ☆ ng.angular.copy@1.4.7
+    |- ☆ ng.angular.element@1.4.7
+    |- ☆ ng.angular.equals@1.4.7
+    |- ☆ ng.angular.extend@1.4.7
+    |- ☆ ng.angular.forEach@1.4.7
+    |- ☆ ng.angular.fromJson@1.4.7
+    |- ☆ ng.angular.identity@1.4.7
+    |- ☆ ng.angular.injector@1.4.7
+    |- ☆ ng.angular.isArray@1.4.7
+    |- ☆ ng.angular.isDate@1.4.7
+    |- ☆ ng.angular.isDefined@1.4.7
+    |- ☆ ng.angular.isElement@1.4.7
+    |- ☆ ng.angular.isFunction@1.4.7
+    |- ☆ ng.angular.isNumber@1.4.7
+    |- ☆ ng.angular.isObject@1.4.7
+    |- ☆ ng.angular.isString@1.4.7
+    |- ☆ ng.angular.isUndefined@1.4.7
+    |- ☆ ng.angular.lowercase@1.4.7
+    |- ☆ ng.angular.merge@1.4.7
+    |- ☆ ng.angular.module@1.4.7
+    |- ☆ ng.angular.noop@1.4.7
+    |- ☆ ng.angular.reloadWithDebugInfo@1.4.7
+    |- ☆ ng.angular.toJson@1.4.7
+    |- ☆ ng.angular.uppercase@1.4.7
+    |- ☆ ng.angular.version@1.4.7
+    |- ☆ ngMock.angular.mock.dump@1.4.7
+    |- ☆ ngMock.angular.mock.inject@1.4.7
+    |- ☆ ngMock.angular.mock@1.4.7
+    |- ☆ ngMock.angular.mock.module@1.4.7
     ...
 |- 模块/
+    |- ☆ auto@1.4.7
+    |- ☆ main@1.4.7
+    |- ☆ ng@1.4.7
+    |- ☆ ngAnimate@1.4.7
+    |- ☆ ngAria@1.4.7
+    |- ☆ ngCookies@1.4.7
+    |- ☆ ngMessageFormat@1.4.7
+    |- ☆ ngMessages@1.4.7
+    |- ☆ ngMock@1.4.7
+    |- ☆ ngMockE2E@1.4.7
+    |- ☆ ngResource@1.4.7
+    |- ☆ ngRoute@1.4.7
+    |- ☆ ngSanitize@1.4.7
+    |- ☆ ngTouch@1.4.7
     ...
 |- 服务/
     |- ★ ng.$anchorScroll@1.4.3

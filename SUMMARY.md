@@ -1,4 +1,4 @@
-* [官方模块](Modules/main.md)
+* [官方模块 - Modules](Modules/main.md)
   * [auto](Modules/auto.md)
   * [ng](Modules/ng.md)
   * [ngAnimate](Modules/ngAnimate.md)
@@ -12,7 +12,7 @@
   * [ngRoute](Modules/ngRoute.md)
   * [ngSanitize](Modules/ngSanitize.md)
   * [ngTouch](Modules/ngTouch.md)
-* 公共方法
+* 公共方法 - Functions
   * [ng.angular.bind](Functions/ng.angular.bind.md)
   * [ng.angular.bootstrap](Functions/ng.angular.bootstrap.md)
   * [ng.angular.copy](Functions/ng.angular.copy.md)
@@ -44,7 +44,7 @@
   * [ngMock.angular.mock.inject](Functions/ngMock.angular.mock.inject.md)
   * [ngMock.angular.mock](Functions/ngMock.angular.mock.md)
   * [ngMock.angular.mock.module](Functions/ngMock.angular.mock.module.md)
-* 服务篇
+* 服务 - Services
   * [ng.$anchorScroll](Services/ng.$anchorScroll.md)
   * [ng.$animate](Services/ng.$animate.md)
   * [ng.$cacheFactory](Services/ng.$cacheFactory.md)
@@ -65,7 +65,7 @@
   * [ng.$interval](Services/ng.$interval.md)
   * [ng.$window](Services/ng.$window.md)
   * [ng.$document](Services/ng.$document.md)
-* 指令篇
+* 指令 - Directives
   * [ng.a](Directives/ng.a.md)  
   * [ng.form](Directives/ng.form.md)  
   * [ng.ng-form](Directives/ng.ng-form.md)  
@@ -134,8 +134,7 @@
   * [ngTouch.ng-click](Directives/ngTouch.ng-click.md)  
   * [ngTouch.ng-swipe-left](Directives/ngTouch.ng-swipe-left.md)  
   * [ngTouch.ng-swipe-right](Directives/ngTouch.ng-swipe-right.md)  
-
-* 过滤器篇
+* 过滤器 - Filters
   * [ng.currency](Filters/ng.currency.md)
   * [ng.date](Filters/ng.date.md)
   * [ng.filter](Filters/ng.filter.md)
