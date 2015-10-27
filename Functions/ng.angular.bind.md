@@ -1,8 +1,9 @@
-# angular.bind
+# `angular.bind`
 - Angular@1.4.7
 - `ng` 模块中的函数
 
-Returns a function which calls function fn bound to self (self becomes the this for fn). You can supply optional args that are prebound to the function. This feature is also known as partial application, as distinguished from function currying.
+返回一个绑定在 `self` 上的 `fn` 函数（`self` 会成为 `fn` 中的 `this`）。你可以提供一些可选的参数（args）
+预先绑定到函数上。这个功能也被称为部分应用程序，或柯里话。
 
 ## 用法
 
@@ -12,10 +13,10 @@ Returns a function which calls function fn bound to self (self becomes the this 
 
 | 参数 | 形式 | 详细 |
 |:----|:---:|:----|
-|self|`object`| Context which fn should be evaluated in.|
-|fn|`function()`| Function to be bound.|
-|args|`*`|Optional arguments to be prebound to the fn function call.|
+|self|`object`| `fn` 对应的上下文环境。|
+|fn|`function()`| 被绑定的函数|
+|args|`*`| 预先绑定到 `fn` 函数上的参数|
 
 #### 返回
 
-`function()`	Function that wraps the fn with all the specified bindings.
+`function()`	使用指定绑定了的 `fn` 的封装

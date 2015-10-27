@@ -1,6 +1,10 @@
 
 [blog](http://114000.github.io)
 
+[gitbook 地址](https://www.gitbook.com/book/114000/angularjs-chinese-api/details) 可以下载完里先看哦。
+
+
+
 为了学习英语和 angular 诶嘿嘿。
 混入了不同版本的 API, 有时间我会抖到更新到最新版 ⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄
 
@@ -84,7 +88,7 @@ mail: fsm114000@163.com
     |- ☆ ngTouch.ng-swipe-left@1.4.7
     |- ☆ ngTouch.ng-swipe-right@1.4.7
     ...
-|- 过滤器/
+|- 过滤器/ - 撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
     |- ★ ng.currency@1.4.7
     |- ★ ng.date@1.4.7
     |- ★ ng.filter@1.4.7
@@ -104,26 +108,26 @@ mail: fsm114000@163.com
     |- ☆ ng.angular.equals@1.4.7
     |- ☆ ng.angular.extend@1.4.7
     |- ☆ ng.angular.forEach@1.4.7
-    |- ☆ ng.angular.fromJson@1.4.7
-    |- ☆ ng.angular.identity@1.4.7
+    |- ★ ng.angular.fromJson@1.4.7
+    |- ★ ng.angular.identity@1.4.7
     |- ☆ ng.angular.injector@1.4.7
-    |- ☆ ng.angular.isArray@1.4.7
-    |- ☆ ng.angular.isDate@1.4.7
-    |- ☆ ng.angular.isDefined@1.4.7
-    |- ☆ ng.angular.isElement@1.4.7
-    |- ☆ ng.angular.isFunction@1.4.7
-    |- ☆ ng.angular.isNumber@1.4.7
-    |- ☆ ng.angular.isObject@1.4.7
-    |- ☆ ng.angular.isString@1.4.7
-    |- ☆ ng.angular.isUndefined@1.4.7
-    |- ☆ ng.angular.lowercase@1.4.7
-    |- ☆ ng.angular.merge@1.4.7
+    |- ★ ng.angular.isArray@1.4.7
+    |- ★ ng.angular.isDate@1.4.7
+    |- ★ ng.angular.isDefined@1.4.7
+    |- ★ ng.angular.isElement@1.4.7
+    |- ★ ng.angular.isFunction@1.4.7
+    |- ★ ng.angular.isNumber@1.4.7
+    |- ★ ng.angular.isObject@1.4.7
+    |- ★ ng.angular.isString@1.4.7
+    |- ★ ng.angular.isUndefined@1.4.7
+    |- ★ ng.angular.lowercase@1.4.7
+    |- ★ ng.angular.merge@1.4.7
     |- ☆ ng.angular.module@1.4.7
-    |- ☆ ng.angular.noop@1.4.7
-    |- ☆ ng.angular.reloadWithDebugInfo@1.4.7
-    |- ☆ ng.angular.toJson@1.4.7
-    |- ☆ ng.angular.uppercase@1.4.7
-    |- ☆ ng.angular.version@1.4.7
+    |- ★ ng.angular.noop@1.4.7
+    |- ★ ng.angular.reloadWithDebugInfo@1.4.7
+    |- ★ ng.angular.toJson@1.4.7
+    |- ★ ng.angular.uppercase@1.4.7
+    |- ★ ng.angular.version@1.4.7
     |- ☆ ngMock.angular.mock.dump@1.4.7
     |- ☆ ngMock.angular.mock.inject@1.4.7
     |- ☆ ngMock.angular.mock@1.4.7
