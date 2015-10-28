@@ -13,9 +13,8 @@
   * [ngSanitize](Modules/ngSanitize.md)
   * [ngTouch](Modules/ngTouch.md)
 * 公共方法 - Functions
-  * [ng.angular.bind](Functions/ng.angular.bind.md)
-  * [ng.angular.bootstrap](Functions/ng.angular.bootstrap.md)
   * [ng.angular.module](Functions/ng.angular.module.md)
+  * [ng.angular.bootstrap](Functions/ng.angular.bootstrap.md)
   * [ng.angular.element](Functions/ng.angular.element.md)
   * [ng.angular.copy](Functions/ng.angular.copy.md)
   * [ng.angular.extend](Functions/ng.angular.extend.md)
@@ -37,6 +36,7 @@
   * [ng.angular.reloadWithDebugInfo](Functions/ng.angular.reloadWithDebugInfo.md)
   * [ng.angular.lowercase](Functions/ng.angular.lowercase.md)
   * [ng.angular.uppercase](Functions/ng.angular.uppercase.md)
+  * [ng.angular.bind](Functions/ng.angular.bind.md)
   * [ng.angular.identity](Functions/ng.angular.identity.md)
   * [ng.angular.noop](Functions/ng.angular.noop.md)
   * [ng.angular.version](Functions/ng.angular.version.md)

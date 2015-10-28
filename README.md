@@ -88,7 +88,7 @@ mail: fsm114000@163.com
     |- ☆ ngTouch.ng-swipe-left@1.4.7
     |- ☆ ngTouch.ng-swipe-right@1.4.7
     ...
-|- 过滤器/ - 撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
+|- 过滤器/ 撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
     |- ★ ng.currency@1.4.7
     |- ★ ng.date@1.4.7
     |- ★ ng.filter@1.4.7
@@ -100,17 +100,17 @@ mail: fsm114000@163.com
     |- ★ ng.uppercase@1.4.7
     |- ★ ngSanitize.linky@1.4.7
     ...
-|- 公共函数/
-    |- ☆ ng.angular.bind@1.4.7
-    |- ☆ ng.angular.bootstrap@1.4.7
-    |- ☆ ng.angular.copy@1.4.7
-    |- ☆ ng.angular.element@1.4.7
-    |- ☆ ng.angular.equals@1.4.7
-    |- ☆ ng.angular.extend@1.4.7
-    |- ☆ ng.angular.forEach@1.4.7
+|- 公共函数/ 撒花！*★,°*:.☆\(￣▽￣)/$:*.°★* 。
+    |- ★ ng.angular.bind@1.4.7
+    |- ★ ng.angular.bootstrap@1.4.7
+    |- ★ ng.angular.copy@1.4.7
+    |- ★ ng.angular.element@1.4.7
+    |- ★ ng.angular.equals@1.4.7
+    |- ★ ng.angular.extend@1.4.7
+    |- ★ ng.angular.forEach@1.4.7
     |- ★ ng.angular.fromJson@1.4.7
     |- ★ ng.angular.identity@1.4.7
-    |- ☆ ng.angular.injector@1.4.7
+    |- ★ ng.angular.injector@1.4.7
     |- ★ ng.angular.isArray@1.4.7
     |- ★ ng.angular.isDate@1.4.7
     |- ★ ng.angular.isDefined@1.4.7
@@ -122,16 +122,16 @@ mail: fsm114000@163.com
     |- ★ ng.angular.isUndefined@1.4.7
     |- ★ ng.angular.lowercase@1.4.7
     |- ★ ng.angular.merge@1.4.7
-    |- ☆ ng.angular.module@1.4.7
+    |- ★ ng.angular.module@1.4.7
     |- ★ ng.angular.noop@1.4.7
     |- ★ ng.angular.reloadWithDebugInfo@1.4.7
     |- ★ ng.angular.toJson@1.4.7
     |- ★ ng.angular.uppercase@1.4.7
     |- ★ ng.angular.version@1.4.7
-    |- ☆ ngMock.angular.mock.dump@1.4.7
-    |- ☆ ngMock.angular.mock.inject@1.4.7
-    |- ☆ ngMock.angular.mock@1.4.7
-    |- ☆ ngMock.angular.mock.module@1.4.7
+    |- ★ ngMock.angular.mock.dump@1.4.7
+    |- ★ ngMock.angular.mock.inject@1.4.7
+    |- ★ ngMock.angular.mock@1.4.7
+    |- ★ ngMock.angular.mock.module@1.4.7
     ...
 |- 模块/
     |- ☆ auto@1.4.7
