@@ -2,11 +2,13 @@
 - Angular@1.4.7
 - `ng` 模块中的指令
 
-The ngCloak directive is used to prevent the Angular html template from being briefly displayed by the browser in its raw (uncompiled) form while your application is loading. Use this directive to avoid the undesirable flicker effect caused by the html template display.
+`ngCloak` 指令用来在你的应用加载时防止浏览器短暂地显示出 Angular html 模板的原始（未编译）的状态。
+使用这个指令避免由 html 模板显示而引起的不良的闪烁效果。
 
-The directive can be applied to the <body> element, but the preferred usage is to apply multiple ngCloak directives to small portions of the page to permit progressive rendering of the browser view.
+这个指令虽然可以应用到 `<body>` 元素上，但是为了使浏览器视图能够渐进地渲染，首选还是在页面上的多个小部分来使用它。
 
-ngCloak works in cooperation with the following css rule embedded within angular.js and angular.min.js. For CSP mode please add angular-csp.css to your html file (see ngCsp).
+`ngCloak` 会同下面的 css 规则被一同嵌入到 angular.js 和 angular.min.js 中。使用 CSP
+模式时请在你的 html 文件中添加 angular-csp.css （请看 `ngCsp`）.
 
 ``` css
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -14,9 +16,12 @@ ngCloak works in cooperation with the following css rule embedded within angular
 }
 ```
 
-When this css rule is loaded by the browser, all html elements (including their children) that are tagged with the ngCloak directive are hidden. When Angular encounters this directive during the compilation of the template it deletes the ngCloak element attribute, making the compiled element visible.
+在这条 css 被浏览器载入后，所有带有  `ngCloak` 的 html 元素（包括他们的子类）会被标记为隐藏。
+当 Angular 在模板编译时遇见这个指令时，Angular 会删除元素上的 `ngCloak` 属性，使编译后的元素可见。
 
-For the best result, the angular.js script must be loaded in the head section of the html document; alternatively, the css rule above must be included in the external stylesheet of the application.
+为了达到最好的效果，angular.js 脚本必须在 html 文档的头部（head）被加载进来，
+或者作为替代的方法，上面的 css 规则必须被应用外部的样式表包含了。
+
 
 ## 指令信息
 
@@ -33,7 +38,7 @@ For the best result, the angular.js script must be loaded in the head section of
 
 用作 CSS 类：
 
-``` css
+``` html
 <ANY class=""> ... </ANY>
 ```
 
