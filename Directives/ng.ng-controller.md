@@ -2,15 +2,21 @@
 - Angular@1.4.7
 - `ng` 模块中的指令
 
-The ngController directive attaches a controller class to the view. This is a key aspect of how angular supports the principles behind the Model-View-Controller design pattern.
+`ngController` 会在视图上添加一个控制器类。这是 angular 如何支持
+MVC（Model-View-Controller）设计模式原则的关键因素。
 
-MVC components in angular:
+angular 中的 MVC 组件：
 
-- **Model** — Models are the properties of a scope; scopes are attached to the DOM where scope properties are accessed through bindings.
-- **View** — The template (HTML with data bindings) that is rendered into the View.
-- **Controller** — The ngController directive specifies a Controller class; the class contains business logic behind the application to decorate the scope with functions and values
 
-Note that you can also attach controllers to the DOM by declaring it in a route definition via the $route service. A common mistake is to declare the controller again using ng-controller in the template itself. This will cause the controller to be attached and executed twice.
+- **Model** — 模型是作用域（scope）的属性；作用域依附在 DOM 元素上，作用域的属性则可以通过绑定被访问到。
+- **View** — 被渲染到视图（View）中的模板（拥有数据绑定的 HTML）
+- **Controller** — `ngController` 指令指定了一个控制器（Controller）类；
+这个类包含了应用（app）使用函数和值来修饰作用域背后的业务逻辑
+
+
+**注意**：通过将使用 `$route` 服务，你可以使用将控制器声明到路由定义中的这种方法将控制器关联到 DOM 上。
+
+一个常见的错误：使用 `ng-controller` 再一次将控制器声明在模板上，这会导致控制器被安放和执行两次。
 
 ## 指令信息
 
@@ -27,32 +33,32 @@ Note that you can also attach controllers to the DOM by declaring it in a route 
 </ANY>
 ```
 
-
 #### 参数
 
 | 参数 | 形式 | 详细 |
 |:----|:---:|:----|
-|ngController|`expression`|Name of a constructor function registered with the current $controllerProvider or an expression that on the current scope evaluates to a constructor function.
-
-The controller instance can be published into a scope property by specifying ng-controller="as propertyName".
-
-If the current $controllerProvider is configured to use globals (via $controllerProvider.allowGlobals()), this may also be the name of a globally accessible constructor function (not recommended).|
+|ngController|`expression`|使用当前 `$controllerProvider` 注册的构造函数的名字，或者是当前作用域上的一个表达式解析出的构造函数的名字。<br>通过指定 `ng-controller="as propertyName"` 将控制器实例发布到一个作用域（scope）属性中。<br>如果当前的 `$controllerProvider` 配置为使用全局（通过使用 `$controllerProvider.allowGlobals()`）,这也会成为一个全局性的可访问的构造函数的名字（不推荐这么做）。|
 
 
 ## 例子
 
-Here is a simple form for editing user contact information. Adding, removing, clearing, and greeting are methods declared on the controller (see source tab). These methods can easily be called from the angular markup. Any changes to the data are automatically reflected in the View without the need for a manual update.
+这是一个简单的编辑用户联系信息的表。添加，删除，清空和展示方法被生命在控制器上（见源标签）。
+这些方法可以轻易地从 angular 标记中调用。任何对数据的操作都会自动映射到视图中而不需要手动去更新。
 
-Two different declaration styles are included below:
+下面介绍了两种不同风格的声明方式：
 
-one binds methods and properties directly onto the controller using this: ng-controller="SettingsController1 as settings"
-one injects $scope into the controller: ng-controller="SettingsController2"
-The second option is more common in the Angular community, and is generally used in boilerplates and in this guide. However, there are advantages to binding properties directly to the controller and avoiding scope.
+一种是将方法和属性直接绑定到控制器上，像这样：`ng-controller="SettingsController1 as settings"`
 
-Using controller as makes it obvious which controller you are accessing in the template when multiple controllers apply to an element.
-If you are writing your controllers as classes you have easier access to the properties and methods, which will appear on the scope, from inside the controller code.
-Since there is always a . in the bindings, you don't have to worry about prototypal inheritance masking primitives.
-This example demonstrates the controller as syntax.
+一种是将 `$scope` 注入到控制器中：`ng-controller="SettingsController2"`
+
+第二种方式在 angular 社区中更为流行，而且在文档中也更经常使用这种方式作为样板。但是，
+避免使用作用域而直接将属性绑定到控制器上还是有很多优势的。
+
+- 当多个控制器作用在一个元素上时，使用 `controller as` 让被访问模板上的控制器容易识别出来。
+- 如果你将你的控制器写成类的方式，则你会更方便的访问那些作用域中和控制器代码中的属性和方法
+- 由于绑定中总是有一个 `.`，所以你没有必要担心原型继承会覆盖原始代码。
+
+这个例子展示了 `controller as` 的句法。
 
 > index.html
 
@@ -141,7 +147,7 @@ it('should check controller as', function() {
 });
 ```
 
-This example demonstrates the "attach to $scope" style of controller.
+这个例子展示的是控制器的 “附属到 `$scope` 上” 形式。
 
 > index.html
 
@@ -182,7 +188,7 @@ function SettingsController2($scope) {
   };
 
   $scope.addContact = function() {
-    $scope.contacts.push({type:'email', value:'yourname@example.org'});
+    $scope.contacts.push({type:'email',¡ value:'yourname@example.org'});
   };
 
   $scope.removeContact = function(contactToRemove) {

@@ -34,7 +34,7 @@ mail: fsm114000@163.com
     |- ★ ng.ng-class-odd@1.4.7
     |- ★ ng.ng-click@1.4.7
     |- ★ ng.ng-cloak@1.4.7
-    |- ☆ ng.ng-controller@1.4.7
+    |- ★ ng.ng-controller@1.4.7
     |- ★ ng.ng-copy@1.4.7
     |- ★ ng.ng-csp@1.4.7
     |- ★ ng.ng-cut@1.4.7
@@ -42,11 +42,11 @@ mail: fsm114000@163.com
     |- ★ ng.ng-disabled@1.4.7
     |- ★ ng.ng-focus@1.4.7
     |- ★ ng.ng-form@1.4.7
-    |- ☆ ng.ng-hide@1.4.7
-    |- ☆ ng.ng-href@1.4.7
-    |- ☆ ng.ng-if@1.4.7
+    |- ★ ng.ng-hide@1.4.7
+    |- ★ ng.ng-href@1.4.7
+    |- ★ ng.ng-if@1.4.7
     |- ☆ ng.ng-include@1.4.7
-    |- ☆ ng.ng-init@1.4.7
+    |- ★ ng.ng-init@1.4.7
     |- ☆ ng.ng-jq@1.4.7
     |- ☆ ng.ng-keydown@1.4.7
     |- ☆ ng.ng-keypress@1.4.7
