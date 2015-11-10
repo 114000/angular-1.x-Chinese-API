@@ -47,11 +47,11 @@ mail: fsm114000@163.com
     |- ★ ng.ng-if@1.4.7
     |- ☆ ng.ng-include@1.4.7
     |- ★ ng.ng-init@1.4.7
-    |- ☆ ng.ng-jq@1.4.7
-    |- ☆ ng.ng-keydown@1.4.7
-    |- ☆ ng.ng-keypress@1.4.7
-    |- ☆ ng.ng-keyup@1.4.7
-    |- ☆ ng.ng-list@1.4.7
+    |- ★ ng.ng-jq@1.4.7
+    |- ★ ng.ng-keydown@1.4.7
+    |- ★ ng.ng-keypress@1.4.7
+    |- ★ ng.ng-keyup@1.4.7
+    |- ★ ng.ng-list@1.4.7
     |- ☆ ng.ng-model-options@1.4.7
     |- ☆ ng.ng-model@1.4.7
     |- ☆ ng.ng-mousedown@1.4.7
@@ -66,7 +66,7 @@ mail: fsm114000@163.com
     |- ☆ ng.ng-paste@1.4.7
     |- ☆ ng.ng-pluralize@1.4.7
     |- ☆ ng.ng-readonly@1.4.7
-    |- ☆ ng.ng-repeat@1.4.7
+    |- ★ ng.ng-repeat@1.4.7
     |- ☆ ng.ng-selected@1.4.7
     |- ☆ ng.ng-show@1.4.7
     |- ☆ ng.ng-src@1.4.7
